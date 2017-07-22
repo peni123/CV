@@ -63,172 +63,43 @@ body {
   position: absolute;
   color: #0a1b6a;
   font: 2em; }
-
-#upper {
-  display: inline-block;
-  font-family: Oxygen;
-  font-weight: normal;
-  color: #394fb3;
-  width: 1280px;
-  height: 20px;
-  margin-bottom: 40px;
-  font-weight: bold;
-  color: #e4f0fb;
-  background-color: #0a1b6a;
-  font-size: 0.9em;
-  padding: 3px 0; }
-  #upper #c-one {
-    display: inline-block;
-    margin-left: 9px;
-    width: 215px;
-    border-right: 1px solid white;
-    height: 100%;
-    padding-left: 23px; }
-  #upper #c-two {
-    display: inline-block;
-    width: 257px;
-    margin-left: 3px;
-    border-right: 1px solid white;
-    height: 100%;
-    padding-left: 23px;
-    box-sixe: border-box; }
-  #upper #c-three {
-    display: inline-block;
-    width: 685px;
-    margin-left: 3px;
-    padding-left: 13px; }
-
-#title-info {
-  width: 1280px;
-  height: 70px; }
-  #title-info #f-name {
-    color: #0a1b6a; }
-  #title-info #s-name {
-    color: #394fb3; }
-  #title-info #s-one {
-    display: inline-block;
-    margin-left: 28px;
+  body .border {
+    border: 1px solid red; }
+  body .page-wrapper {
+    padding: 10px 20px; }
+  body .padding-n {
+    padding: 0; }
+  body .margin-n {
+    margin: 0; }
+  body .display-inl-b {
+    display: inline-block; }
+  body .p-r-10 {
+    padding-right: 10px; }
+  body .name {
+    flex: 0;
+    color: #0a1b6a;
     font-size: 65px;
     font-weight: bold;
-    height: 70px;
-    width: 250px; }
-  #title-info #s-two {
-    color: #394fb3;
-    display: inline-block;
-    margin-left: 170px;
+    display: flex;
+    align-items: center; }
+    body .name > .second {
+      color: #394fb3; }
+  body .position {
     font-size: 28px;
-    height: 70px;
-    width: 400px; }
-    #title-info #s-two span {
-      color: #0a1b6a;
-      font-weight: bold; }
-
-.column, #right-column, #left-column, #work {
-  color: #0a1b6a;
-  margin-left: 30px;
-  width: 507px;
-  height: 800px;
-  font-family: Oxygen;
-  position: relative;
-  float: left;
-  font-size: 1.3em;
-  line-height: 1.4em; }
-
-.head-style, #right-column h1, #left-column h1, #work h1 {
-  color: white;
-  font-size: 1.4em;
-  font-family: Oxygen;
-  padding: 0.6em  0em;
-  margin: 0.4em 0;
-  font-weight: bold;
-  background-color: #0a1b6a;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 27, 106, 0.54);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(10, 27, 106, 0.54);
-  box-shadow: 10px 10px 5px 0px rgba(57, 79, 179, 0.54);
-  line-height: 30px; }
-
-#right-column {
-  margin-top: 10px; }
-  #right-column #info {
-    margin-top: 250px; }
-  #right-column h1 span {
-    color: white;
-    font-weight: bold; }
-  #right-column #pic-and-info {
-    width: 512px;
-    height: 210px;
-    position: absolute;
-    background-color: #0a1b6a;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 27, 106, 0.54);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(10, 27, 106, 0.54);
-    box-shadow: 10px 10px 5px 0px rgba(10, 27, 106, 0.54); }
-    #right-column #pic-and-info #pic {
-      width: 205px;
-      height: 150px;
-      position: relative;
-      float: left; }
-    #right-column #pic-and-info img {
-      width: 170px;
-      height: 210px; }
-  #right-column #contacts {
-    width: 500px;
-    height: 210px;
-    margin-left: 30px;
-    position: relative;
-    float: left;
-    width: 50%;
-    font-size: 0.8em;
-    line-height: 1.3em; }
-    #right-column #contacts span {
-      display: block;
-      margin: 10px 0;
-      color: white; }
-    #right-column #contacts #about-me, #right-column #contacts #tech-skills, #right-column #contacts #other-skills {
-      width: 100%;
-      height: 100px; }
-      #right-column #contacts #about-me #about-me, #right-column #contacts #tech-skills #about-me, #right-column #contacts #other-skills #about-me {
-        height: 63px;
-        margin-bottom: 10px; }
-        #right-column #contacts #about-me #about-me p, #right-column #contacts #tech-skills #about-me p, #right-column #contacts #other-skills #about-me p {
-          padding: 4px 0;
-          text-align: left; }
-          #right-column #contacts #about-me #about-me p #last, #right-column #contacts #tech-skills #about-me p #last, #right-column #contacts #other-skills #about-me p #last {
-            padding-bottom: 10px; }
-      #right-column #contacts #about-me #tech-skills, #right-column #contacts #tech-skills #tech-skills, #right-column #contacts #other-skills #tech-skills {
-        margin-top: 45px; }
-      #right-column #contacts #about-me ul li, #right-column #contacts #tech-skills ul li, #right-column #contacts #other-skills ul li {
-        line-height: 1.6em; }
-
-#left-column {
-  margin-top: -10px;
-  margin-left: 60px;
-  width: 560px; }
-  #left-column h1 span {
-    color: white;
-    font-weight: bold; }
-
-#education {
-  padding-top: 10px; }
-  #education .c1 {
-    width: 250px;
-    color: #0a1b6a;
-    font-weiht: bold;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    text-align: left; }
-  #education .c2 {
-    text-align: left;
-    color: #394fb3; }
-  #education #lang table {
+    display: flex;
+    align-items: center; }
+  body img {
+    width: 100%;
+    height: auto; }
+  body .b-grd-blue {
+    background-color: #0a1b6a; }
+  body .white {
+    color: #fff; }
+  body .w-full {
     width: 100%; }
-
-#work {
-  width: 1139.2px;
-  height: 200px;
-  display: block;
-  margin-top: 460px;
-  margin-left: 25px;
-  margin-right: 20px;
-  margin-bottom: 5px; }
+  body .title-case {
+    text-transform: capitalize; }
+  body .up-case {
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
