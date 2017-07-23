@@ -10,80 +10,128 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.2/flexboxgrid.min.css">
 </head>
 <body>
-	<div class="grid-noGutter page-wrapper">
-		<div class="col-12 header-bar b-grd-blue white w-full" style="height: 20px;"></div>
-		<div class="col-4 border name">
-			<span class="first border">Penka</span>
-			<span class="second border">Dineva</span>
+	<div class="grid page-wrapper">
+		<!-- <div class="col-12 b-grd-blue white w-full" style="height: 20px;"></div> -->
+		<div class="col-4 name padding-n">
+			<span class="first">Penka</span>
+			<span class="second p-l-10">Dineva</span>
 		</div>
-		<div style="display: flex;" class="col-8 position border">Javascript Front-end Developer</div>
-		<div class="col-4 contact-panel border grid margin-n padding-n">
-		<h2 class="b-grd-blue white w-full title-case col-12">Contact Details</h2>
-			<div class="col-3 picture p-v-10"><img src="css/assets/me3.jpg" alt=""></div>
-			<div class="col-9 contacts grid" style="display: flex; align-items: center; padding-left: 10px;">
-				<div class="col-3 p-l-10 p-v-10">Phone</div>
-				<div class="col-9 p-v-10 t-a-l">+359 884 89 20 20</div>
-				<div class="col-3  p-l-10 p-v-10">e-mail:</div>
-				<div class="col-9 p-v-10 t-a-l">penka.ddineva@gmail.com</div>
-				<div class="col-3  p-l-10 p-v-10">GIT:</div>
-				<div class="col-9 p-v-10 t-a-l">peni123</div>
-			</div>
+		<div style="display: flex;" class="col-8 position padding-n">Javascript Front-end Developer</div>
+		<div class="col-4 padding-n margin-n">
+			<h2 class="b-grd-blue white up-case col-12 padder-20-10 r-bord">
+				<span class="fa fa-user fa-1x" aria-hidden="true"></span>
+				<span class="p-l-10">Contact Details</span>
+			</h2>
 		</div>
-		<div class="col-8 info-panel border grid">
-		<h2 class="b-grd-blue white w-full title-case col-12">Technical Skills</h2>
-		<div class="col-6">
-		<ul class="skills-list" >
-		 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>Javascript; ECMAScript 6</li>
-		 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>HTML5</li>
-		 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>CSS, SASS, Less</li>
-		 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>AngularJs</li>
-		 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>GIT</li>
+		<div class="col-0 padding-n margin-n">
+		</div>
+		<div class="col-8  padding-n margin-n">
+			<h2 class="b-grd-blue white up-case col-12 padder-20-10">
+				<span class="fa fa-cogs fa-1x" aria-hidden="true"></span>
+				<span class="p-l-10">Technical Skills</span>
+			</h2>
+		</div>
+		<div class="col-4 contact-panel grid margin-n padder-20-10">
+		<ul class="col-12">
+			<li><img src="css/assets/me3.jpg" alt=""></li>
+			<li><div class="col-12 m-t-20" ><span>Phone</span><span class=" p-l-10">+359 884 89 20 20
+				</span></div></li>
+			<li><div class="col-12 margin-n " ><span>e-mail:</span><span class=" p-l-10">penka.ddineva@gmail.com
+				</span></div></li>
+			<li><div class="col-12 margin-n " ><span>GIT:</span><span class=" p-l-10">peni123</span></div></li>
+			
+		</ul>
+		</div>
+			<!-- <div class="col-12 picture margin-n padding-n"><img src="css/assets/me3.jpg" alt=""></div>
+			
+				<div class="col-12 margin-n padding-n " style="height: 26px;"><span class=" p-l-10">Phone</span><span class=" p-l-10">+359 884 89 20 20
+				</span></div>
+				<div class="col-12 margin-n padding-n " style="height: 26px;><span class=" p-l-10">e-mail:</span><span class=" p-l-10">penka.ddineva@gmail.com
+				</span></div>
+				<div class="col-12 margin-n padding-n" style="height: 26px;><span class=" p-l-10">GIT:</span><span class=" p-l-10">peni123</span></div>
+			
+					</div> -->
+		<div class="col-0 padding-n margin-n">
+		</div>
+		<div class="col-7 info-panel grid  margin-n padding-n">
+		<div class="col-12">
+		<ul class="skills-list p-h-10" >
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">Javascript; ECMAScript 6</span></li>
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">HTML5</span></li>
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">CSS, SASS, Less</span></li>
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">AngularJs</span></li>
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">GIT</span></li>
+		 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JS module loaders - Webpack</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JS task-runners -Gulp, Grunt</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">Bootsrap</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JQuery</span></li>
+				<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">Google Maps Apis</span></li>
 		 </ul>
 		 </div>
-		<div class="col-6">
+		<!-- <div class="col-6">
 			<ul class="skills-list" >
-			 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>JS module loaders - Webpack</li>
-			 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>JS task-runners -Gulp, Grunt</li>
-			 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>Bootsrap</li>
-			 	<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>JQuery</li>
-				<li><i class="fa fa-check p-r-10 p-v-10" aria-hidden="true"></i>Google Maps Apis</li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JS module loaders - Webpack</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JS task-runners -Gulp, Grunt</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">Bootsrap</span></li>
+			 	<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">JQuery</span></li>
+				<li><i class="fa fa-cog p-r-10 p-v-10" aria-hidden="true"></i><span class="p-l-10">Google Maps Apis</span></li>
 			 </ul>
-		 </div>
+		 </div> -->
 		</div>
-		<div class="work-experience border grid w-full margin-n">
+		<div class="work-experience grid w-full margin-n">
 			<div class="col-12 padding-n">
-				<h2 class="b-grd-blue white w-full title-case">work experience</h2>
+				<h2 class="b-grd-blue white up-case col-12 padder-20-10"">
+					<span class="fa fa-keyboard-o fa-1x" aria-hidden="true"></span>
+					<span class="p-l-10">work experience</span>
+				</h2>
 			</div>
-			<div class="col-4 padding-n">
+			
+			<div class="col-4 padder-20-10">
 				<span>December 2016 - until now:</span> 
 			</div>
-			<div class="col-8 padding-n">
+			
+			<div class="col-8 padder-20-10 text" style="display: flex; flex-flow: row wrap;">
 				Front-end Develper at Athlon Sofia;
-				<p>
-				In my day-today job as Front-end Developer, I am using extensively GIT flow, HTML5, LESS, SASS, Javascript and AngularJs, also packs like Bootsrap, Gridlex and Flexbox. I have also minor experience with ReactJs.
-				</p>
+				<br/>
+				In my day-today job as Front-end Developer, I am using extensively GIT flow, HTML5, LESS,<br/> SASS, Javascript and AngularJs, also packs like Bootsrap, Gridlex and Flexbox. I have also minor<br/> experience with ReactJs.
 			</div>
-			<div class="col-4 padding-n">
+			
+			<div class="col-4 padder-20-10">
 				<span>before December 2016:</span> 
 			</div>
-			<div class="col-8">
-				<p>several jobs in the field of advertising and marketing on managerial positions.
-				</p> 
-				<p>During that time I have aquired valuable experience in multinational environment and have learned how to establish and maintain fruitful rapport with diverse audiences.
-				</p>
-				<p>Thinking commercially beyond the data, creative vision, strong organizational skills have been other competencies developed while previous employment.
-				</p>
+			<div class="col-8 padder-20-10 text" style="display: flex; flex-flow: row wrap;">
+				several jobs in the field of advertising and marketing on managerial positions.
+				<br/>
+				During that time I have aquired valuable experience in multinational environment and have learned <br/>how to establish and maintain fruitful rapport with diverse audiences.
+				<br/>
+				Thinking commercially beyond the data, creative vision, strong organizational skills have been other <br/>competencies developed while previous employment.
+				
 			</div>
 		</div>
-		<div class="col-4 languages border grid">
-			<h2 class="b-grd-blue white w-full title-case col-12">Languages</h2>
-			<div class="col-4">
+		<div class="col-4 padding-n margin-n">
+			<h2 class="b-grd-blue white up-case col-12 padder-20-10 r-bord">
+				<span class="fa fa-comments-o fa-1x" aria-hidden="true"></span>
+				<span class="p-l-10">Languages</span>
+			</h2>
+		</div>
+		<div class="col-0 padding-n margin-n">
+		</div>
+		<div class="col-8  padding-n margin-n">
+			<h2 class="b-grd-blue white up-case col-12 padder-20-10"">
+				<span class="fa fa-graduation-cap fa-1x" aria-hidden="true"></span>
+				<span class="p-l-10">Education</span>
+			</h2>
+		</div>
+		<div class="col-4 languages grid">
+			<!-- <h2 class="b-grd-blue white w-full title-case col-12">Languages</h2> -->
+			
+			<div class="col-4 padder-20-10">
 				<h5 class="up-case">language</h5>
 			</div>
-			<div class="col-8">
+			<div class="col-8 padder-20-10">
 				<h5 class="up-case">level</h5>
 			</div>
-			<div class="col-4">
+			<div class="col-4 padder-20-10">
 				<ul>
 					<li class="up-case">english</li>
 					<li class="up-case">german</li>
@@ -91,7 +139,7 @@
 					<li class="up-case">french</li>
 				</ul>
 			</div>
-			<div class="col-8">
+			<div class="col-8 padder-20-10">
 				<ul>
 					<li class="title-case">C1</li>
 					<li class="title-case">B1</li>
@@ -100,18 +148,20 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-8 education border grid">
-			<h2 class="b-grd-blue white w-full title-case col-12">education</h2>
-			<div class="col-4">
+		<div class="col-0 padding-n margin-n">
+		</div>
+		<div class="col-8 education grid">
+			<!-- <h2 class="b-grd-blue white w-full title-case col-12">education</h2> -->
+			<div class="col-3 padder-20-10">
 				It Talents
 			</div>
-			<div class="col-8">
-				<a class="p-r-10" href="http://ittalents.bg">IT Talents</a>bootcamp is intensive program focused on in-demand coding skills. Students are challenged to think like programmers in an environment with a low student to teacher ratio. 
+			<div class="col-9 padder-20-10">
+				<a class="p-r-10" href="http://ittalents.bg">IT Talents</a>bootcamp is 6-months intensive program focused on in-demand coding skills. Students are challenged to think like programmers in an environment with a low student to teacher ratio. 
 			</div>
-			<div class="col-4">
+			<div class="col-3 padder-20-10">
 				City University of Seattle
 			</div>
-			<div class="col-8">
+			<div class="col-9 padder-20-10">
 				MBA Marketing
 			</div>
 		</div>

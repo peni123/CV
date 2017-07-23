@@ -62,38 +62,54 @@ body {
   font-family: Oxygen;
   position: absolute;
   color: #0a1b6a;
-  font: 2em;
+  font: 30px;
   /* .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   	padding: 0;
   } */ }
-  body .border {
-    border: 1px solid #394fb3;
-    overflow: hidden; }
+  body .r-bord {
+    border-right: 100px solid #fff; }
+  body h2 {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    padding-left: 10px; }
   body .page-wrapper {
-    padding: 10px 20px; }
+    width: 96%;
+    height: 1500px;
+    padding: 10px 5px 10px 15px;
+    font-size: 18px;
+    line-height: 1.5; }
   body .padding-n {
     padding: 0; }
   body .margin-n {
     margin: 0; }
   body .m-r-10 {
     margin-right: 10px; }
+  body .m-t-20 {
+    margin-top: 20px; }
   body .display-inl-b {
     display: inline-block; }
   body .p-r-10 {
     padding-right: 10px; }
   body .p-l-10 {
     padding-left: 10px; }
+  body .p-l-5 {
+    padding-left: 5px; }
   body .p-v-20 {
     padding: 20px 0; }
   body .p-v-10 {
     padding: 10px 0; }
+  body .p-h-10 {
+    padding: 0 10px; }
   body .t-a-l {
     text-align: left; }
   body .t-a-r {
     text-align: right; }
+  body .padder-20-10 {
+    padding: 20px 10px; }
   body .name {
     flex: 0;
-    font-size: 65px;
+    font-size: 30px;
     font-weight: bold;
     display: flex;
     align-items: center; }
@@ -104,12 +120,12 @@ body {
     display: flex;
     align-items: center; }
   body .contact-panel {
-    color: #0a1b6a; }
+    color: #0a1b6a;
+    margin: 0;
+    padding: 0; }
   body img {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center; }
+    width: 50%;
+    height: auto; }
   body .b-grd-blue {
     background-color: #0a1b6a; }
   body .white {
@@ -120,5 +136,8 @@ body {
     text-transform: capitalize; }
   body .up-case {
     text-transform: uppercase; }
+  body .text {
+    display: flex;
+    flex-flow: row wrap; }
 
 /*# sourceMappingURL=style.css.map */
