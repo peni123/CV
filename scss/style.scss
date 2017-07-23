@@ -14,9 +14,13 @@ body{
 	position: absolute;
 	color: $blue4;
 	font: 2em;
-
+	
+	/* .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		padding: 0;
+	} */
 	.border {
-		border:	1px solid red;
+		border:	1px solid $blue2;
+		overflow: hidden;
 	}
 	.page-wrapper {
 		padding: 10px 20px;
@@ -28,15 +32,32 @@ body{
 	.margin-n {
 		margin: 0;
 	} 
+	.m-r-10 {
+		margin-right: 10px;
+	}
 	.display-inl-b {
 		display: inline-block;
 	}
 	.p-r-10 {
 		padding-right: 10px;
 	}
+	.p-l-10 {
+		padding-left: 10px;
+	}
+	.p-v-20 {
+		padding: 20px 0;
+	}
+	.p-v-10 {
+		padding: 10px 0;
+	}
+	.t-a-l {
+		text-align: left;
+	}
+	.t-a-r {
+		text-align: right;
+	}
 	.name {
 		flex: 0;
-		color: $blue4;
 		font-size: 65px; font-weight: bold;
 		display: flex;
 		align-items: center;
@@ -50,11 +71,15 @@ body{
 		font-size: 28px;
 		display: flex;
 		align-items: center;
-		
+	}
+	.contact-panel {
+		color: $blue4;
 	}
 	img {
 		width: 100%;
 		height: auto;
+		display: flex;
+		align-items: center;
 	}
 	.b-grd-blue {
 		background-color: $blue4;
